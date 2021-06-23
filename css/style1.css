@@ -1,0 +1,26 @@
+/* @import url(style2.css);  */
+.container { width:1000px; margin:auto; border:1px solid red;}
+
+header {background: #eee}
+
+.slider {height: 200px; padding:10px; background: #ccc}
+.row {display:table; width:100%}
+.cols {display:table-cell; width:33%; padding:10px}
+.col1 {background:#eee}
+.col2 {background:#ddd}
+.col3 {background:#aaa}
+.row + .row  { padding:30px; width:auto;}
+
+.welcome {padding:10px; margin:20px; display:table-cell;
+background:#eee; width:700px; border-radius: 20px}
+.news {padding: 1px 10px 20px; margin: 20px 20px 20px 50px; display:block;
+background:#ddd; font-size:14px; border-radius:  20px}
+footer {background: #999; height:40px}
+
+
+
+
+
+
+
+

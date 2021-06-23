@@ -1,0 +1,7 @@
+nav  ul {list-style:none; margin:0; padding: 0}
+nav > ul > li {display: table-cell; position:relative}
+nav  a {padding:10px; background:#eef; border:1px solid black; display:block; width:auto;}
+
+nav ul ul {position:absolute; top:40px; left:0px; margin:0 }
+nav > ul > li ul {height:0px; overflow:hidden; }
+nav > ul > li:hover ul { height:500px; width:auto; transition: all 500ms linear 0ms}
